@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #3a8abe;
+    color: #161616;
+    font-size: 20px;
+}
+
+header {
+    background-color: #031f36;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.cajajugadores{
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    row-gap: 15px;
+}
+
+.nombres {
+   
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 140px;
+   grid-auto-rows:140px;
+   align-items: center;
+}
+
+.nombres img {
+   height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #0b46b4;
+    padding: 10px;
+    text-align: center;
+border-radius: 100px;
+font-size: 20px;}
+    
+.tarjeta{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+ 
+}
+.tarjeta img{
+    width: 160px;
+       border-radius: 50%;
+       padding: 20px;
+      
+}
+
+
+  
+
