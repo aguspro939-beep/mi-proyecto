@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>voley: jugadores y pelotas</title>
+  <link rel="stylesheet" href="tabrajodetaller.css">
+</head>
+
+<body>
+  <header>
+    <h1>Los Mejores del Vóley</h1>
+  </header>
+  <dialog  class="modalwilfredo">
+      <button id="botoncerrar" onclick="document.querySelector('.modalwilfredo').close()"> Cerrar</button>
+
+      <p>Nombre completo: Wilfredo León Venero.</p>
+      <p>Nacimiento: 31/07/1993, Santiago de Cuba.</p>
+      <p>Nacionalidad: Cubano, naturalizado polaco (2015)</p>
+      <p>Altura: 2,01 m.</p>
+      <p>Clubes: Zenit Kazan (Rusia), Sir Safety Perugia (Italia), Lublin (Polonia).</p>
+      <p>Selecciones</p>
+      <p>Con Cuba: Plata en el Mundial 2010.</p>
+      <p>Con Polonia: Plata olímpica en París 2024, bronce en Europeo 2019</p>
+    </dialog>   
+  <main>
+    <section class="jugadores">
+      <h2>🏐 Mejores Jugadores</h2>
+      <div class="cajajugadores">
+
+        <div class="nombres">
+          <img src="jugadores/giba.jpeg" alt="">
+          <span> Giba </span>
+          <span>(Brasil)</span>
+          <button id="botonabrir" onclick="document.querySelector('.modalgilberto').showModal()">leer historia</button>
+        </div>
+
+
+        <div class="nombres">
+          <img src="jugadores/wilfredo leon.png" alt="">
+          <span>Wilfredo León </span>
+          <span>(Cuba/Polonia)</span>
+          <button id="botonabrir" onclick="document.querySelector('.modalwilfredo').showModal()">leer historia</button>
+        </div>
+
+
+        <div class="nombres">
+          <img src="jugadores/EARVIN.png" alt="">
+          <span>Earvin N'Gapeth</span>
+          <span>(Francia)</span>
+          <a href="https://voleibolife.com/earvin-ngapeth-la-estrella-francesa-del-voleibol/">leer historia</a>
+        </div>
+
+        <div class="nombres">
+          <img src="jugadores/facundo.jpeg" alt="">
+          <span>facundo conte </span>
+          <span>(Argentina)</span>
+          <a href="https://www.fundacionkonex.org/b5229-facundo-conte">leer historia</a>
+        </div>
+
+        <div class="nombres">
+          <img src="jugadores/Karch Kiraly 2.jpeg" alt="">
+          <span>Karch kiraly
+          </span>
+          <span>(EE.UU.)</span>
+          <a href="https://www.volleyhall.org/karch-kiraly.html">leer historia</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="pelotas">
+      <h2>🔝 Mejores Pelotas de Vóley</h2>
+
+      <div class="cajapelotas">
+
+        <div class="tarjeta">
+          <img src="jugadores/molten.jpeg" alt="">
+          <span>Molten FLISTATEC</span>
+        </div>
+
+        <div class="tarjeta">
+          <img src="jugadores/Wilson AVP (beach volley)3.jpeg" alt="">
+          <span>Wilson AVP (beach volley)</span>
+        </div>
+
+        <div class="tarjeta">
+          <img src="jugadores/Tachikara SV5W Gold.jpeg" alt="">
+          <span>Tachikara SV5W Gold</span>
+        </div>
+
+      </div>
+    </section>
+    <dialog class="modalgilberto">
+      <button id="botoncerrar" onclick="document.querySelector('.modalgilberto').close()">Cerrar</button>
+      <p>Nombre completo: Gilberto Amauri de Godoy Filho.</p>
+      <p> Nacimiento: 23 de diciembre de 1976, en Londrina, Brasil.</p>
+      <p>Posición: Punta receptor (outside hitter).</p>
+      <h3>Selección de Brasil (1995–2012)</h3>
+      <p> Oro olímpico en 2004.</p>
+      <p> Plata en 2008 y 2012.</p>
+      <p> 3 Mundiales (2002, 2006, 2010).</p>
+      <p>8 Ligas Mundiales.</p>
+      <p> Clubes: Jugó en Brasil, Italia, Rusia, Argentina y Emiratos Árabes.</p>
+      <p>Retiro: 2014.</p>
+      <p> Distinciones: MVP en varios torneos y miembro del Salón de la Fama del Vóley (2018).</p>
+      <p>Dato personal: Superó leucemia de bebé y lesiones; muy valorado por su carisma y liderazgo.</p>
+    </dialog>
+
+
+
+
+
+  </main>
+
+  <dialog class="modalwilfredo">
+    <button id="botoncerrar">Cerrar</button>
+    <p>Nombre completo: Wilfredo León Venero.</p>
+    <p>Nacimiento: 31/07/1993, Santiago de Cuba.</p>
+    <p>Nacionalidad: Cubano, naturalizado polaco (2015)</p>
+    <p>Altura: 2,01 m.</p>
+    <p>Clubes: Zenit Kazan (Rusia), Sir Safety Perugia (Italia), Lublin (Polonia).</p>
+    <p>Selecciones</p>
+    <p>Con Cuba: Plata en el Mundial 2010.</p>
+    <p>Con Polonia: Plata olímpica en París 2024, bronce en Europeo 2019</p>
+  </dialog>
+
+  <!-- <script>
+        const modalw = document.querySelector(".modalwilfredo");
+        const botoncerrar = document.querySelector("#botoncerrar");
+        const botonabrir = document.querySelector("#botonabrir");
+
+        botonabrir.addEventListener("click", function(){
+            modal.showModal();
+        });
+
+        botoncerrar.addEventListener("click", function(){
+            modal.close();
+        });
+
+    
+    </script>  -->
+  <footer>
+    <p>&copy; 2025 Pasión por el Vóley</p>
+  </footer>
+</body>
+
+</html>
