@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -35,17 +36,17 @@
 
 
         <div class="nombres">
-          <img src="jugadores/EARVIN.png" alt="">
+          <img src="jugadores/Earvin.png" alt="">
           <span>Earvin N'Gapeth</span>
           <span>(Francia)</span>
-          <a href="https://voleibolife.com/earvin-ngapeth-la-estrella-francesa-del-voleibol/">leer historia</a>
+          <button id="botonabrir" onclick="document.querySelector('.earvin').showModal()">leer historia</button>
         </div>
 
         <div class="nombres">
           <img src="jugadores/facundo.jpeg" alt="">
           <span>facundo conte </span>
           <span>(Argentina)</span>
-          <a href="https://www.fundacionkonex.org/b5229-facundo-conte">leer historia</a>
+          <button id="botonabrir" onclick="document.querySelector('.facundo').showModal()">leer historia</button>
         </div>
 
         <div class="nombres">
@@ -53,7 +54,7 @@
           <span>Karch kiraly
           </span>
           <span>(EE.UU.)</span>
-          <a href="https://www.volleyhall.org/karch-kiraly.html">leer historia</a>
+          <button id="botonabrir" onclick="document.querySelector('.karch').showModal()">leer historia</button>
         </div>
       </div>
     </section>
@@ -113,13 +114,42 @@
       <p><span>Con Cuba:</span> Plata en el Mundial 2010.</p>
       <p><span>Con Polonia:</span> Plata olímpica en París 2024, bronce en Europeo 2019</p>
     </div>
-
   </dialog>
 
+  <dialog class="earvin">
+      <button id="botoncerrar" onclick="document.querySelector('.earvin').close()">Cerrar</button>
+      <div class="contenido-modal"></div>
+      <p><span>Nombre completo:</span> Earvin N’Gapeth.</p>
+      <p><span>Nacimiento:</span> 12 de febrero de 1991, Saint-Raphaël, Francia.</p>
+      <p><span>Nacionalidad:</span>francesa</p>
+      <p><span>Altura:</span> 1,94 m</p>
+      <p><span>peso:</span>94 kg.</p>
+    </dialog> 
+
+    <dialog class="facundo">
+        <button id="botoncerrar" onclick="document.querySelector('.facundo').close()">Cerrar</button>
+        <div class="contenido-modal"></div>
+        <p><span>Nombre completo:</span>Facundo Conte</p>
+        <p><span>Nacimiento:</span> 25 de agosto de 1989.</p>
+        <p><span>Nacionalidad:</span>Ciudad Autónoma de Buenos Aires</p>
+        <p><span>posicion</span>Punta / receptor (a veces opuesto)</p>
+    
+    </dialog>
+
+    <dialog class="karch">
+          <button id="botoncerrar" onclick="document.querySelector('.karch').close()">Cerrar</button>
+          <div class="contenido-modal"></div>
+          <p><span>Nombre completo:</span> Karch Kiraly</p>
+          <p><span>Nacimiento:</span> 3 de noviembre de 1960</p>
+          <p><span>Nacionalidad:</span> Estadounidense (Jackson, Michigan, EE.UU.)</p>
+          <p><span>Posición:</span> Punta / Receptor</p>
+   </dialog>
+
   <footer>
-    <p>&copy; 2025 Pasión por el Vóley - by Holtzer Agustín</p>
+    <p>&copy; 2025 Pasión por el Vóley - by Holzer Agustín</p>
   </footer>
 </body>
 
 
 </html>
+
