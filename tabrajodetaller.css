@@ -105,11 +105,14 @@ span {
   font-weight: bold;
 }
 .contenido-modal {
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 20px;
 }
-h4 {
-  margin-top: 20px;
+dialog h2 {
+  padding: 0.5rem 0 1rem 0;
+}
+dialog .logros {
+  padding: 10px 0;
 }
 .especial {
   color: #24242a;
@@ -130,3 +133,4 @@ h4 {
 }
 .modalwilfredo {
 }
+
